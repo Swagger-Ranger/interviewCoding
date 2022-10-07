@@ -39,7 +39,7 @@ public class ReverseStackLocally {
     }
 
     /**
-     * 反转栈
+     * 反转栈,注意取出来，和放进去是分开的：popLastElement是取出来且取的是最后一个，此方法就是再把取出来的放回去，进而实现反转
      *
      * @param stack
      * @param <T>
